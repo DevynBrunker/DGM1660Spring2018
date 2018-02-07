@@ -1,0 +1,66 @@
+newmtl Blocked_Robot:Blocked_Robot:lambert6SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 0.25 0.25 0.25
+Ni 1.00
+newmtl Blocked_Robot:Blocked_Robot:lambert7SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 0.25 0.25 0.25
+Ni 1.00
+newmtl Blocked_Robot:Blocked_Robot:lambert8SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 0.25 0.25 0.25
+Ni 1.00
+newmtl Blocked_Robot:Blocked_Robot:lambert9SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 0.25 0.25 0.25
+Ni 1.00
+newmtl Blocked_Robot:Blocked_Robot:lambert10SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 0.25 0.25 0.25
+Ni 1.00
+newmtl Blocked_Robot:Blocked_Robot:lambert11SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 0.25 0.25 0.25
+Ni 1.00
+newmtl Blocked_Robot:Blocked_Robot:lambert12SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 0.25 0.25 0.25
+Ni 1.00
+newmtl Blocked_Robot:Blocked_Robot:lambert13SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 0.25 0.25 0.25
+Ni 1.00
+newmtl Blocked_Robot:Blocked_Robot:lambert14SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 0.25 0.25 0.25
+Ni 1.00
+newmtl Blocked_Robot:Blocked_Robot:lambert15SG
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 0.25 0.25 0.25
+Ni 1.00
+newmtl initialShadingGroup
+illum 4
+Kd 0.50 0.50 0.50
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
