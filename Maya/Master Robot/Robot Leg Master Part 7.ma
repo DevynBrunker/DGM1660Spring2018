@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: Robot Leg Master Part 6.ma
-//Last modified: Tue, Mar 13, 2018 04:18:22 PM
+//Name: Robot Leg Master Part 7.ma
+//Last modified: Tue, Mar 13, 2018 04:32:44 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "86A9BCC9-4D63-1E23-F3F7-96B6D616ABDF";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 21.821402521423824 14.916929446484433 11.316832227187595 ;
-	setAttr ".r" -type "double3" -17.138352713545718 425.00000000248889 -3.7629167616415704e-015 ;
+	setAttr ".t" -type "double3" 21.310963038746145 15.479050622475096 8.7645185133454611 ;
+	setAttr ".r" -type "double3" -30.938352712385058 424.99999999770336 7.5258335219351417e-015 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "F1398E8D-4D28-41A4-8ED1-1EA8DA8453F6";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 27.006012398232723;
+	setAttr ".coi" 27.006012398234159;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -29,14 +29,14 @@ createNode camera -s -n "perspShape" -p "persp";
 createNode transform -s -n "top";
 	rename -uid "FF3048F6-4EED-F59B-B43E-D095A3C72B87";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 0.60748995287093932 1000.1 3.304642592760231 ;
+	setAttr ".t" -type "double3" -0.95059940194189685 1000.1 -1.1548468975373976 ;
 	setAttr ".r" -type "double3" -89.999999999999986 0 0 ;
 createNode camera -s -n "topShape" -p "top";
 	rename -uid "9B0871DF-4FC8-A89E-F3AF-C6AFE10F12ED";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".coi" 1000.1;
-	setAttr ".ow" 7.4530294930285637;
+	setAttr ".ow" 18.296915174303596;
 	setAttr ".imn" -type "string" "top";
 	setAttr ".den" -type "string" "top_depth";
 	setAttr ".man" -type "string" "top_mask";
@@ -60,14 +60,14 @@ createNode camera -s -n "frontShape" -p "front";
 createNode transform -s -n "side";
 	rename -uid "6015D529-49EE-DA40-3AAD-0D880552E7B9";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 1000.1 4.9398889924158054 -0.34120347009058194 ;
+	setAttr ".t" -type "double3" 1000.1 1.8281325000638906 -0.2709820851811755 ;
 	setAttr ".r" -type "double3" 0 89.999999999999986 0 ;
 createNode camera -s -n "sideShape" -p "side";
 	rename -uid "13256583-43E2-BBD8-5B0C-BBBF6FBA8EDE";
 	setAttr -k off ".v" no;
 	setAttr ".rnd" no;
 	setAttr ".coi" 1000.1;
-	setAttr ".ow" 5.5234374088494382;
+	setAttr ".ow" 5.5962529586547785;
 	setAttr ".imn" -type "string" "side";
 	setAttr ".den" -type "string" "side_depth";
 	setAttr ".man" -type "string" "side_mask";
@@ -11288,6 +11288,7 @@ createNode mesh -n "Robot_Leg_Master_Part_2:pPlaneShape1" -p "Robot_Leg_Master_P
 	setAttr -k off ".v";
 	setAttr ".vir" yes;
 	setAttr ".vif" yes;
+	setAttr ".pv" -type "double2" 1 0 ;
 	setAttr ".uvst[0].uvsn" -type "string" "map1";
 	setAttr -s 4 ".uvst[0].uvsp[0:3]" -type "float2" 0 0 1 0 0 1 1 1;
 	setAttr ".cuvs" -type "string" "map1";
@@ -14009,4 +14010,4 @@ connectAttr "Robot_Leg_Master_Part_2:pCubeShape1.iog" ":initialShadingGroup.dsm"
 connectAttr "Robot_Leg_Master_Part_2:pCubeShape2.iog" ":initialShadingGroup.dsm"
 		 -na;
 connectAttr "pCubeShape8.iog" ":initialShadingGroup.dsm" -na;
-// End of Robot Leg Master Part 6.ma
+// End of Robot Leg Master Part 7.ma
